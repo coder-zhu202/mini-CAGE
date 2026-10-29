@@ -1,0 +1,5 @@
+*.o
+__pycache__/
+.vmdk
+*.swp
+.DS_Store

@@ -29,7 +29,9 @@ cd docker-seccomp && python3 gen_seccomp.py > seccomp-w6.json
 ## W4-W6 实验记录
 
 W4：跑通 seccomp 最小 demo，确认 ALLOW/ERRNO 行为
+
 W5：从 strace 结果挑出最小集合，写成第一版 JSON
+
 W6：逐条砍到 82 条 syscall，test.c 回归验证通过
 
 ## 下一步

@@ -5,9 +5,13 @@ ARC-Brake 前身实验：用 seccomp 实现最小可用的系统调用沙箱运�
 ## 目录结构
 
 docker-seccomp/gen_seccomp.py — 从 syscall 清单生成 seccomp-bpf JSON profile
+
 docker-seccomp/seccomp-w5.json — W5 基础白名单
+
 docker-seccomp/seccomp-w6.json — W6 版本，82 条 syscall 精简白名单（当前主线）
+
 test.c — 沙箱内测试负载
+
 .gitignore — 排除编译产物、缓存、虚拟机磁盘
 
 ## 快速上手
